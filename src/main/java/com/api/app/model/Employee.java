@@ -16,9 +16,9 @@ public class Employee {
     @Column(name = "first_name", nullable = false)
     private String firstname;
 
-    @Column(name = "last_name", nullable = false)
+    @Column(name = "last_name")
     private String lastname;
 
-    @Column(name = "email", nullable = false)
+    @Column(name = "email")
     private String email;
 }
